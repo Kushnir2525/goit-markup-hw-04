@@ -229,7 +229,8 @@ gap: 40px;
     padding-bottom: 188px;
     display: flex;
    flex-direction: column;
-   
+   max-width: 1440px; 
+   margin: 0 auto;
    
 }
 
@@ -292,18 +293,13 @@ margin: 0 auto 48px ;
 
 
 /*=============Benefits=============*/
-.benefits-soc-link{
+.benefits-pic{
     display: flex;
     justify-content: center;
-   
+  align-items: center;
     background-color: var(--sacondary-background-color);
     margin-bottom: 8px;
-}
-.benefits-soc-icon{
-    margin-bottom: 32px;
-    margin-top: 24px;
-  
-    
+    height: 112px;
 }
 
 .benefits-list{
@@ -430,9 +426,6 @@ padding-top:0;
 
 /*=============Customers=============*/
 
-.customers-section{
-    padding-top: 130px;
-}
 .customers-title{
     margin-bottom: 72px;
 
@@ -462,7 +455,6 @@ width: 168px;
      border: 1px solid #8E8F99;
      border-radius: 4px;
     align-items: center;
-    padding: 16px , 32px;
    color:  #8E8F99;
 }
 
@@ -605,12 +597,16 @@ width: 168px;
    
 }
 
+.service-link{
+    display:block
+}
+
 .service-item{
     width: calc((100% - 48px) / 3 );
     
 }
 
-.service-item:hover{
+.service-link:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
@@ -624,11 +620,7 @@ padding-bottom: 32px;
 padding-left: 16px;
 
 }
-.service-item:hover .text-block {
-    border-left: 0px ;
-    border-right: 0px ; 
-    border-bottom: 0px ;  
-}
+
 
 .servise-second-title{
     margin-bottom: 8px;
