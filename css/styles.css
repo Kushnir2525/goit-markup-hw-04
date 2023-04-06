@@ -297,6 +297,7 @@ margin: 0 auto 48px ;
     justify-content: center;
    
     background-color: var(--sacondary-background-color);
+    margin-bottom: 8px;
 }
 .benefits-soc-icon{
     margin-bottom: 32px;
